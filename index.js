@@ -4,21 +4,34 @@ function loadXMLDoc() {
   xhr.open("GET", xml);
   xhr.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
+      getData(this);
     }
   };
   xhr.send();
 }
 
-function myFunction(xml) {
+function getData(xml) {
   var x, i, xmlDoc, txt;
   xmlDoc = xml.responseXML;
   locationID = xmlDoc.getElementsByTagName("VanillaPlacement");
   locationName = xmlDoc.getElementsByTagName("Name");
   itemName = xmlDoc.getElementsByTagName("Item");
   for (i = 0; i< 124; i++) {
-    //console.log(`Location Name: ${locationName[i].innerHTML} Item Location ID: ${locationID[i].innerHTML} ItemName: ${itemName[i].innerHTML}`);
-    document.getElementById(`item${locationID.innerHTML}`).background = url(`items/${itemName[i].innerHTML}.svg`);
+    var itemID = "item" + locationID[i].innerHTML;
+    var itemURL = `items/${itemName[i].innerHTML}.svg`;
+    var url = `url(${itemURL})`;
+    setData(itemID, url);
   }
+}
 
+function setData(_itemID, _url) {
+  document.getElementById(_itemID).background = _url;
+  //logMe(_itemID, _url, itemName[i].innerHTML)
+}
+
+function logMe(_itemID, _url, _itemName) {
+  console.log(`Item ${itemName[i].innerHTML} Placed`);
+  console.log(_itemID);
+  console.log(_url);
+  console.log("------------------------------------");
 }
