@@ -13,6 +13,12 @@ body {
 	background: black;
 }
 
+button {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
 .container {
 	position: absolute;
 	top: 0px;
