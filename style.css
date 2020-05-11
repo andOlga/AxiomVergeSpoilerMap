@@ -287,7 +287,7 @@ button {
 	position: absolute;
 	bottom: calc((15px * 5) - 0px);
 	left: calc((15px * 4) - 2.5px);
-	background: url(items/Firewall.svg);
+	background: url(items/FireWall.svg);
 }
 
 #item25 {
