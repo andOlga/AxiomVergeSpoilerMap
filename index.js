@@ -21,4 +21,7 @@ function myFunction(xml) {
     //document.getElementById(`item${locationID}`).background = url(itemName);
   }
   
+  function getImageName(name) {
+    
+  }
 }
