@@ -13,12 +13,12 @@ function loadXMLDoc() {
 function myFunction(xml) {
   var x, i, xmlDoc, txt;
   xmlDoc = xml.responseXML;
-  txt = "";
-  locationName = xmlDoc.getElementsByTagName("Name");
+  locationID = xmlDoc.getElementsByTagName("VanillaPlacement");
   itemName = xmlDoc.getElementsByTagName("Item");
   for (i = 0; i< 124; i++) {
-    txt += `<Location><br><Name>${locationName[i].childNodes[0].nodeValue}</Name><br>`;
-    txt += `<Item>${itemName[i].childNodes[0].nodeValue}</Item><br></Location><br>`;
+    console.log(locationID);
+    console.log(itemName);
+    //document.getElementById(`item${locationID}`).background = url(itemName);
   }
-  document.getElementById("demo").innerHTML = txt;
+  
 }
