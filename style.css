@@ -1,14 +1,3 @@
-:root {
-	--healthNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/healthNode.svg);
-	--healthFragment: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/healthFragment.svg);
-	--powerNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/powerNode.svg);
-	--powerFragment: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/powerFragment.svg);
-	--sizeNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/sizeNode.svg);
-	--rangeNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/rangeNode.svg);
-	--note: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/digitalPaper.svg);
-	--unknown: url(https://cdn.discordapp.com/attachments/551840398016774193/709410031514288254/Image10000.png);
-}
-
 body {
 	background: black;
 }
@@ -44,7 +33,6 @@ button {
 	left: 0px;
 	width: 244px;
 	height: 259px;
-	background: rgba(168,19,103,0);
 	border: 3px transparent solid;
 }
 
@@ -54,7 +42,6 @@ button {
 	left: 169px;
 	width: 382px;
 	height: 228px;
-	background: rgba(108,10,175,0);
 	border: 3px transparent solid;
 }
 
@@ -64,7 +51,6 @@ button {
 	left: 554px;
 	width: 213px;
 	height: 213px;
-	background: rgba(41,51,253,0);
 	border: 3px transparent solid;
 }
 
@@ -74,7 +60,6 @@ button {
 	left: 770px;
 	width: 258px;
 	height: 413px;
-	background: rgba(139,23,110,0);
 	border: 3px transparent solid;
 }
 
@@ -84,7 +69,6 @@ button {
 	left: 246px;
 	width: 521px;
 	height: 74px;
-	background: rgba(0,174,140,0);
 	border: 3px transparent solid;
 }
 
@@ -94,7 +78,6 @@ button {
 	left: 246px;
 	width: 182px;
 	height: 291px;
-	background: rgba(1,93,165,0);
 	border: 3px transparent solid;
 }
 
@@ -104,7 +87,6 @@ button {
 	left: 431px;
 	width: 336px;
 	height: 183px;
-	background: rgba(58,24,160,0);
 	border: 3px transparent solid;
 }
 
@@ -114,7 +96,6 @@ button {
 	left: 939px;
 	width: 135px;
 	height: 336px;
-	background: rgba(44,110,87,0);
 	border: 3px transparent solid;
 }
 
@@ -124,7 +105,6 @@ button {
 	left: 277px;
 	width: 105px;
 	height: 381px;
-	background: rgba(199,46,255,0);
 	border: 3px transparent solid;
 }
 
@@ -139,866 +119,866 @@ button {
 	position: absolute;
 	top: calc((15px * 9) + 1px);
 	left: calc((15px * 5) - 1px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/disruptor.svg);
+	background: url(/items/DataDisruptor.svg);
 }
 
 #item2 {
 	position: absolute;
 	top: calc((15px * 2) - 2px);
 	right: calc((15px * 0) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/nova.svg);
+	background: url(/items/Nova.svg);
 }
 
 #item3 {
 	position: absolute;
 	top: calc((15px * 5) - 0.5px);
 	left: calc((15px * 7) - 0px);
-	background: var(--sizeNode);
+	background: url(/items/SizeNode.svg);
 }
 
 #item4 {
 	position: absolute;
 	top: calc((15px * 7) - 0px);
 	right: calc((15px * 0) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/laserDrill.svg);
+	background: url(/items/Drill.svg);
 }
 
 #item5 {
 	position: absolute;
 	top: calc((15px * 8) + 0.75px);
 	right: calc((15px * 2) - 1.5px);
-	background: var(--powerNode);
+	background: url(/items/PowerNode.svg);
 }
 
 #item6 {
 	position: absolute;
 	top: calc((15px * 3) - 1.5px);
 	right: calc((15px * 7) + 0.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/multiDisruptor.svg);
+	background: url(/items/MultiDisruptor.svg);
 }
 
 #item7 {
 	position: absolute;
 	bottom: calc((15px * 0) - 2.5px);
 	right: calc((15px * 1) - 1px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item8 {
 	position: absolute;
 	top: calc((15px * 6) - 1px);
 	left: calc((15px * 4) - 1px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item9 {
 	position: absolute;
 	top: calc((15px * 8) + 0px);
 	left: calc((15px * 8) + 0.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/kilver.svg);
+	background: url(/items/Kilver.svg);
 }
 
 #item10 {
 	position: absolute;
 	top: calc((15px * 3) - 1.75px);
 	left: calc((15px * 6) + 0px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item11 {
 	position: absolute;
 	top: calc((15px * 6) - 0.5px);
 	left: calc((15px * 13) + 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/addDisruptor1.svg);
+	background: url(/items/AddressDisruptor1.svg);
 }
 
 #item12 {
 	position: absolute;
 	bottom: calc((15px * 1) - 2px);
 	right: calc((15px * 4) + 0px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item13 {
 	position: absolute;
 	top: calc((15px * 7) + 0px);
 	left: calc((15px * 0) - 2px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item14 {
 	position: absolute;
 	top: calc((15px * 7) + 2px);
 	left: calc((15px * 15) + 3.35px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item15 {
 	position: absolute;
 	top: calc((15px * 10) + 1px);
 	left: calc((15px * 15) + 3px);
-	background: var(--sizeNode);
+	background: url(/items/SizeNode.svg);
 }
 
 #item16 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	left: calc((15px * 13) + 2px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item17 {
 	position: absolute;
 	top: calc((15px * 9) + 0.5px);
 	left: calc((15px * 18) + 4px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item18 {
 	position: absolute;
 	top: calc((15px * 10) + 1.25px);
 	right: calc((15px * 3) - 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item19 {
 	position: absolute;
 	top: calc((15px * 12) + 1.5px);
 	left: calc((15px * 24) + 6.5px);
-	background: var(--powerNode);
+	background: url(/items/PowerNode.svg);
 }
 
 #item20 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	left: calc((15px * 5) - 1.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/fieldDisruptor.svg);
+	background: url(/items/HighJump.svg);
 }
 
 #item21 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1px);
 	left: calc((15px * 5) - 1px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item22 {
 	position: absolute;
 	top: calc((15px * 3) - 2px);
 	left: calc((15px * 7) + 0px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item23 {
 	position: absolute;
 	top: calc((15px * 1) - 2px);
 	right: calc((15px * 1) - 1.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/labcoat.svg);
+	background: url(/items/GlitchTeleport.svg);
 }
 
 #item24 {
 	position: absolute;
 	bottom: calc((15px * 5) - 0px);
 	left: calc((15px * 4) - 2.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/firewall.svg);
+	background: url(/items/Firewall.svg);
 }
 
 #item25 {
 	position: absolute;
 	bottom: calc((15px * 4) - 0.5px);
 	left: calc((15px * 7) + 0px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item26 {
 	position: absolute;
 	bottom: calc((15px * 0) - 2.5px);
 	left: calc((15px * 7) + 0px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item27 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	right: calc((15px * 7) + 0px);
-	background: var(--rangeNode);
+	background: url(/items/RangeNode.svg);
 }
 
 #item28 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	left: calc((15px * 3) - 2px);
-	background: var(--rangeNode);
+	background: url(/items/RangeNode.svg);
 }
 
 #item29 {
 	position: absolute;
 	bottom: calc((15px * 4) - 0.5px);
 	left: calc((15px * 2) - 2.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/bioflux1.svg);
+	background: url(/items/TendrilsTop.svg);
 }
 
 #item30 {
 	position: absolute;
 	top: calc((15px * 4) - 1.5px);
 	right: calc((15px * 4) - 0.5px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item31 {
 	position: absolute;
 	bottom: calc((15px * 5) + 0px);
 	right: calc((15px * 5) + 0px);
-	background: var(--sizeNode);
+	background: url(/items/SizeNode.svg);
 }
 
 #item32 {
 	position: absolute;
 	top: calc((15px * 1) - 2px);
 	right: calc((15px * 4) - 0.5px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item33 {
 	position: absolute;
 	bottom: calc((15px * 6) + 0px);
 	left: calc((15px * 0) - 3px);
-	background: var(--powerNode);
+	background: url(/items/PowerNode.svg);
 }
 
 #item34 {
 	position: absolute;
 	bottom: calc((15px * 15) + 4px);
 	left: calc((15px * 6) - 0.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/drone.svg);
+	background: url(/items/DroneGun.svg);
 }
 
 #item35 {
 	position: absolute;
 	bottom: calc((15px * 5) - 0.5px);
 	left: calc((15px * 2) - 2px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item36 {
 	position: absolute;
 	top: calc((15px * 2) - 2.5px);
 	left: calc((15px * 7) + 0px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item37 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1.5px);
 	right: calc((15px * 5) + 0px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item38 {
 	position: absolute;
 	top: calc((15px * 0) - 3px);
 	right: calc((15px * 7) + 0px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item39 {
 	position: absolute;
 	bottom: calc((15px * 4) - 0.5px);
 	right: calc((15px * 3) - 0.75px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item40 {
 	position: absolute;
 	bottom: calc((15px * 1) - 1.5px);
 	right: calc((15px * 5) + 0px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/passcode.svg);
+	background: url(/items/PasswordTool.svg);
 }
 
 #item41 {
 	position: absolute;
 	bottom: calc((15px * 1) - 1.5px);
 	right: calc((15px * 3) - 0.75px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item42 {
 	position: absolute;
 	top: calc((15px * 5) - 1.5px);
 	left: calc((15px * 1) - 2.25px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item43 {
 	position: absolute;
 	top: calc((15px * 6) - 0.65px);
 	left: calc((15px * 4) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/voranj.svg);
+	background: url(/items/Voranj.svg);
 }
 
 #item44 {
 	position: absolute;
 	bottom: calc((15px * 6) + 0px);
 	left: calc((15px * 5) - 1.5px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item45 {
 	position: absolute;
 	bottom: calc((15px * 12) + 2px);
 	left: calc((15px * 5) - 1.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/hypoAtomizer.svg);
+	background: url(/items/VerticalSpread.svg);
 }
 
 #item46 {
 	position: absolute;
 	bottom: calc((15px * 16) + 4px);
 	left: calc((15px * 3) - 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item47 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	left: calc((15px * 1) - 2.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/addDisruptor2.svg);
+	background: url(/items/AddressDisruptor2.svg);
 }
 
 #item48 {
 	position: absolute;
 	top: calc((15px * 2) - 2px);
 	left: calc((15px * 0) - 2px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item49 {
 	position: absolute;
 	top: calc((15px * 1) - 2.5px);
 	left: calc((15px * 9) + 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item50 {
 	position: absolute;
 	top: calc((15px * 1) - 2.5px);
 	left: calc((15px * 10) + 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item51 {
 	position: absolute;
 	bottom: calc((15px * 6) + 0px);
 	right: calc((15px * 0) - 2.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/inertialPulse.svg);
+	background: url(/items/InertialPulse.svg);
 }
 
 #item52 {
 	position: absolute;
 	bottom: calc((15px * 5) + 0px);
 	left: calc((15px * 0) - 2px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item53 {
 	position: absolute;
 	bottom: calc((15px * 12) + 2px);
 	left: calc((15px * 6) - 0.5px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item54 {
 	position: absolute;
 	bottom: calc((15px * 16) + 4px);
 	right: calc((15px * 7) + 0px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item55 {
 	position: absolute;
 	top: calc((15px * 6) - 0.5px);
 	right: calc((15px * 0) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/grapple.svg);
+	background: url(/items/Grapple.svg);
 }
 
 #item56 {
 	position: absolute;
 	top: calc((15px * 9) + 1px);
 	left: calc((15px * 1) - 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item57 {
 	position: absolute;
 	top: calc((15px * 0) - 3px);
 	right: calc((15px * 2) - 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item58 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	right: calc((15px * 7) + 0px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/tetheredCharge.svg);
+	background: url(/items/TetheredCharge.svg);
 }
 
 #item59 {
 	position: absolute;
 	top: calc((15px * 7) + 0px);
 	left: calc((15px * 8) - 1px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item60 {
 	position: absolute;
 	top: calc((15px * 6) - 0.5px);
 	right: calc((15px * 7) + 0px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item61 {
 	position: absolute;
 	top: calc((15px * 5) - 1px);
 	right: calc((15px * 0) - 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item62 {
 	position: absolute;
 	top: calc((15px * 3) - 1.5px);
 	right: calc((15px * 0) - 2px);
-	background: var(--powerNode);
+	background: url(/items/PowerNode.svg);
 }
 
 #item63 {
 	position: absolute;
 	top: calc((15px * 5) - 1px);
 	left: calc((15px * 4) - 2.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item64 {
 	position: absolute;
 	top: calc((15px * 4) - 1px);
 	left: calc((15px * 4) - 2.5px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item65 {
 	position: absolute;
 	top: calc((15px * 4) - 1px);
 	right: calc((15px * 5) - 0.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/reflector.svg);
+	background: url(/items/Reflect.svg);
 }
 
 #item66 {
 	position: absolute;
 	top: calc((15px * 5) - 1px);
 	right: calc((15px * 6) + 0px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/droneLaunch.svg);
+	background: url(/items/EnhancedLaunch.svg);
 }
 
 #item67 {
 	position: absolute;
 	top: calc((15px * 9) + 1px);
 	right: calc((15px * 4) - 1px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/trenchcoat.svg);
+	background: url(/items/BlackCoat.svg);
 }
 
 #item68 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	left: calc((15px * 7) + 0px);
-	background: var(--rangeNode);
+	background: url(/items/RangeNode.svg);
 }
 
 #item69 {
 	position: absolute;
 	bottom: calc((15px * 1) - 2px);
 	right: calc((15px * 2) - 2px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item70 {
 	position: absolute;
 	top: calc((15px * 1) - 2px);
 	left: calc((15px * 7) - 0.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item71 {
 	position: absolute;
 	bottom: calc((15px * 2) - 2px);
 	right: calc((15px * 1) - 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item72 {
 	position: absolute;
 	top: calc((15px * 1) - 2.5px);
 	right: calc((15px * 10) + 1.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item73 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1px);
 	right: calc((15px * 5) - 1px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item74 {
 	position: absolute;
 	bottom: calc((15px * 6) + 0px);
 	right: calc((15px * 4) - 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item75 {
 	position: absolute;
 	top: calc((15px * 7) + 1px);
 	right: calc((15px * 2) - 2px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item76 {
 	position: absolute;
 	top: calc((15px * 5) + 0px);
 	right: calc((15px * 4) - 1px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item77 {
 	position: absolute;
 	top: calc((15px * 9) + 1px);
 	left: calc((15px * 3) - 1.25px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item78 {
 	position: absolute;
 	top: calc((15px * 5) + 0px);
 	left: calc((15px * 2) - 1.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item79 {
 	position: absolute;
 	bottom: calc((15px * 3) + 0px);
 	left: calc((15px * 3) - 1.25px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item80 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	left: calc((15px * 3) - 1.25px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item81 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	right: calc((15px * 9) + 2px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item82 {
 	position: absolute;
 	bottom: calc((15px * 3) + 0px);
 	right: calc((15px * 10) + 2px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item83 {
 	position: absolute;
 	bottom: calc((15px * 6) + 1px);
 	right: calc((15px * 10) + 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item84 {
 	position: absolute;
 	top: calc((15px * 4) - 2px);
 	right: calc((15px * 9) + 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/distortionField.svg);
+	background: url(/items/DistortionField.svg);
 }
 
 #item85 {
 	position: absolute;
 	bottom: calc((15px * 0) - 2px);
 	right: calc((15px * 6) + 1px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/addBomb.svg);
+	background: url(/items/GlitchBomb.svg);
 }
 
 #item86 {
 	position: absolute;
 	top: calc((15px * 0) - 2.5px);
 	right: calc((15px * 2) - 1.5px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item87 {
 	position: absolute;
 	bottom: calc((15px * 5) - 1px);
 	right: calc((15px * 6) + 0px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/lightningGun.svg);
+	background: url(/items/LightningGun.svg);
 }
 
 #item88 {
 	position: absolute;
 	top: calc((15px * 2) - 2.5px);
 	left: calc((15px * 8) + 0px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item89 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	right: calc((15px * 6) + 1px);
-	background: var(--powerNode);
+	background: url(/items/PowerNode.svg);
 }
 
 #item90 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	right: calc((15px * 7) + 1px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item91 {
 	position: absolute;
 	bottom: calc((15px * 0) - 2px);
 	left: calc((15px * 9) - 0px);
-	background: var(--rangeNode);
+	background: url(/items/RangeNode.svg);
 }
 
 #item92 {
 	position: absolute;
 	bottom: calc((15px * 0) - 2px);
 	left: calc((15px * 7) - 0.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/shards.svg);
+	background: url(/items/Shards.svg);
 }
 
 #item93 {
 	position: absolute;
 	bottom: calc((15px * 3) - 0px);
 	left: calc((15px * 8) + 2px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item94 {
 	position: absolute;
 	top: calc((15px * 2) - 2px);
 	left: calc((15px * 4) - 1.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/droneTeleport.svg);
+	background: url(/items/DroneTeleport.svg);
 }
 
 #item95 {
 	position: absolute;
 	top: calc((15px * 7) + 0px);
 	left: calc((15px * 7) + 0px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item96 {
 	position: absolute;
 	bottom: calc((15px * 3) - 1.5px);
 	left: calc((15px * 3) - 1px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/dataBomb.svg);
+	background: url(/items/DataGrenade.svg);
 }
 
 #item97 {
 	position: absolute;
 	top: calc((15px * 0) - 2px);
 	right: calc((15px * 2) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/turbinePulse.svg);
+	background: url(/items/TriCone.svg);
 }
 
 #item98 {
 	position: absolute;
 	top: calc((15px * 4) - 2px);
 	left: calc((15px * 7) - 0.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item99 {
 	position: absolute;
 	top: calc((15px * 6) - 0.5px);
 	left: calc((15px * 5) - 1px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item100 {
 	position: absolute;
 	top: calc((15px * 5) - 1.5px);
 	left: calc((15px * 7) - 0.5px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item101 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	left: calc((15px * 4) - 1.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/bioflux2.svg);
+	background: url(/items/TendrilsBottom.svg);
 }
 
 #item102 {
 	position: absolute;
 	bottom: calc((15px * 2) - 1px);
 	left: calc((15px * 0) - 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item103 {
 	position: absolute;
 	top: calc((15px * 4) - 2px);
 	left: calc((15px * 2) - 2.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item104 {
 	position: absolute;
 	top: calc((15px * 3) - 2px);
 	right: calc((15px * 1) - 2.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item105 {
 	position: absolute;
 	top: calc((15px * 2) - 2.5px);
 	left: calc((15px * 6) - 1.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/sudranKey.svg);
+	background: url(/items/BreachSuppressor.svg);
 }
 
 #item106 {
 	position: absolute;
 	top: calc((15px * 1) - 2.5px);
 	left: calc((15px * 2) - 2.5px);
-	background: var(--powerNode);
+	background: url(/items/PowerNode.svg);
 }
 
 #item107 {
 	position: absolute;
 	bottom: calc((15px * 4) + 0px);
 	right: calc((15px * 3) - 2px);
-	background: var(--healthFragment);
+	background: url(/items/HealthNodeFragment.svg);
 }
 
 #item108 {
 	position: absolute;
 	bottom: calc((15px * 1) - 2px);
 	left: calc((15px * 3) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/redcoat.svg);
+	background: url(/items/RedCoat.svg);
 }
 
 #item109 {
 	position: absolute;
 	bottom: calc((15px * 15) + 4px);
 	left: calc((15px * 4) - 2.5px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/ionBeam.svg);
+	background: url(/items/IonBeam.svg);
 }
 
 #item110 {
 	position: absolute;
 	bottom: calc((15px * 1) - 1.5px);
 	left: calc((15px * 8) + 0.5px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item111 {
 	position: absolute;
 	bottom: calc((15px * 0) - 2px);
 	left: calc((15px * 4) - 2px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item112 {
 	position: absolute;
 	bottom: calc((15px * 6) - 1px);
 	left: calc((15px * 2) - 1.5px);
-	background: var(--healthNode);
+	background: url(/items/HealthNode.svg);
 }
 
 #item113 {
 	position: absolute;
 	bottom: calc((15px * 6) - 1px);
 	left: calc((15px * 4) - 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item114 {
 	position: absolute;
 	bottom: calc((15px * 5) - 1.5px);
 	left: calc((15px * 4) - 1px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item115 {
 	position: absolute;
 	bottom: calc((15px * 5) - 1.5px);
 	left: calc((15px * 5) + 1.25px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item116 {
 	position: absolute;
 	bottom: calc((15px * 10) + 0px);
 	left: calc((15px * 5) - 1px);
-	background: var(--sizeNode);
+	background: url(/items/SizeNode.svg);
 }
 
 #item117 {
 	position: absolute;
 	top: calc((15px * 12) + 1.5px);
 	left: calc((15px * 2) - 1.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item118 {
 	position: absolute;
 	bottom: calc((15px * 10) + 0px);
 	left: calc((15px * 1) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/reverseSlicer.svg);
+	background: url(/items/Scythe.svg);
 }
 
 #item119 {
 	position: absolute;
 	top: calc((15px * 7) + 0px);
 	left: calc((15px * 3) - 1.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }
 
 #item120 {
 	position: absolute;
 	bottom: calc((15px * 3) - 2px);
 	right: calc((15px * 5) + 0px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/orbitalDischarge.svg);
+	background: url(/items/WallTrace.svg);
 }
 
 #item121 {
 	position: absolute;
 	top: calc((15px * 3) - 1.5px);
 	left: calc((15px * 5) - 1px);
-	background: var(--powerFragment);
+	background: url(/items/PowerNodeFragment.svg);
 }
 
 #item122 {
 	position: absolute;
 	top: calc((15px * 4) - 1px);
 	left: calc((15px * 1) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/flamethrower.svg);
+	background: url(/items/FlameThrower.svg);
 }
 
 #item123 {
 	position: absolute;
 	bottom: calc((15px * 5) - 0px);
 	left: calc((15px * 3) - 2px);
-	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/quantumVariegator.svg);
+	background: url(/items/Swim.svg);
 }
 
 #item124 {
 	position: absolute;
 	top: calc((15px * 7) + 2px);
 	right: calc((15px * 1) - 2.5px);
-	background: var(--note);
+	background: url(/items/DigitalPaper.svg);
 }

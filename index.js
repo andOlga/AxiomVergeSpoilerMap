@@ -14,14 +14,11 @@ function myFunction(xml) {
   var x, i, xmlDoc, txt;
   xmlDoc = xml.responseXML;
   locationID = xmlDoc.getElementsByTagName("VanillaPlacement");
+  locationName = xmlDoc.getElementsByTagName("Name");
   itemName = xmlDoc.getElementsByTagName("Item");
   for (i = 0; i< 124; i++) {
-    console.log(locationID);
-    console.log(itemName);
-    //document.getElementById(`item${locationID}`).background = url(itemName);
+    console.log("Location Name: {0} Item Location ID: {1} ItemName: {2} ", locationName[i], locationID[i], itemName[i]);
+    document.getElementById(`item${locationID}`).background = url(`/items/${itemName}.svg`);
   }
-  
-  function getImageName(name) {
-    
-  }
+
 }
