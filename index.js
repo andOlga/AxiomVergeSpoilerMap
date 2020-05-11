@@ -17,8 +17,8 @@ function myFunction(xml) {
   locationName = xmlDoc.getElementsByTagName("Name");
   itemName = xmlDoc.getElementsByTagName("Item");
   for (i = 0; i< 124; i++) {
-    console.log(`Location Name: ${locationName[i].innerHTML} Item Location ID: ${locationID[i].innerHTML} ItemName: ${itemName[i].innerHTML}`);
-    //document.getElementById(`item${locationID.innerHTML}`).background = url(`items/${itemName[i].innerHTML}.svg`);
+    //console.log(`Location Name: ${locationName[i].innerHTML} Item Location ID: ${locationID[i].innerHTML} ItemName: ${itemName[i].innerHTML}`);
+    document.getElementById(`item${locationID.innerHTML}`).background = url(`items/${itemName[i].innerHTML}.svg`);
   }
 
 }
