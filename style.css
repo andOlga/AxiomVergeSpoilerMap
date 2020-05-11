@@ -1,4 +1,997 @@
+:root {
+	--healthNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/healthNode.svg);
+	--healthFragment: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/healthFragment.svg);
+	--powerNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/powerNode.svg);
+	--powerFragment: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/powerFragment.svg);
+	--sizeNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/sizeNode.svg);
+	--rangeNode: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/rangeNode.svg);
+	--note: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/digitalPaper.svg);
+	--unknown: url(https://cdn.discordapp.com/attachments/551840398016774193/709410031514288254/Image10000.png);
+}
+
 body {
-  background: black;
-  color: white;
+	background: black;
+}
+
+.container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background: black;
+}
+
+#map {
+	position: absolute;
+	top: calc((1080px - 988px) / 2);
+	left: calc((1920px - 1080px) / 2);
+	width: 1080px;
+	height: 988px;
+	background: url(https://cdn.discordapp.com/attachments/645421911181885471/708820922286473277/WorldMap.png) no-repeat;
+}
+
+.area1 {
+	position: absolute;
+	top: 492px;
+	left: 0px;
+	width: 244px;
+	height: 259px;
+	background: rgba(168,19,103,0);
+	border: 3px transparent solid;
+}
+
+.area2 {
+	position: absolute;
+	top: 754px;
+	left: 169px;
+	width: 382px;
+	height: 228px;
+	background: rgba(108,10,175,0);
+	border: 3px transparent solid;
+}
+
+.area3 {
+	position: absolute;
+	top: 754px;
+	left: 554px;
+	width: 213px;
+	height: 213px;
+	background: rgba(41,51,253,0);
+	border: 3px transparent solid;
+}
+
+.area4 {
+	position: absolute;
+	top: 400px;
+	left: 770px;
+	width: 258px;
+	height: 413px;
+	background: rgba(139,23,110,0);
+	border: 3px transparent solid;
+}
+
+.area5 {
+	position: absolute;
+	top: 677px;
+	left: 246px;
+	width: 521px;
+	height: 74px;
+	background: rgba(0,174,140,0);
+	border: 3px transparent solid;
+}
+
+.area6 {
+	position: absolute;
+	top: 384px;
+	left: 246px;
+	width: 182px;
+	height: 291px;
+	background: rgba(1,93,165,0);
+	border: 3px transparent solid;
+}
+
+.area7 {
+	position: absolute;
+	top: 492px;
+	left: 431px;
+	width: 336px;
+	height: 183px;
+	background: rgba(58,24,160,0);
+	border: 3px transparent solid;
+}
+
+.area8 {
+	position: absolute;
+	top: 354px;
+	left: 939px;
+	width: 135px;
+	height: 336px;
+	background: rgba(44,110,87,0);
+	border: 3px transparent solid;
+}
+
+.area9 {
+	position: absolute;
+	top: 0px;
+	left: 277px;
+	width: 105px;
+	height: 381px;
+	background: rgba(199,46,255,0);
+	border: 3px transparent solid;
+}
+
+.item {
+	border: 2px transparent solid;
+	width: 14px;
+	height: 14px;
+	z-index: 2;
+}
+
+#item1 {
+	position: absolute;
+	top: calc((15px * 9) + 1px);
+	left: calc((15px * 5) - 1px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/disruptor.svg);
+}
+
+#item2 {
+	position: absolute;
+	top: calc((15px * 2) - 2px);
+	right: calc((15px * 0) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/nova.svg);
+}
+
+#item3 {
+	position: absolute;
+	top: calc((15px * 5) - 0.5px);
+	left: calc((15px * 7) - 0px);
+	background: var(--sizeNode);
+}
+
+#item4 {
+	position: absolute;
+	top: calc((15px * 7) - 0px);
+	right: calc((15px * 0) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/laserDrill.svg);
+}
+
+#item5 {
+	position: absolute;
+	top: calc((15px * 8) + 0.75px);
+	right: calc((15px * 2) - 1.5px);
+	background: var(--powerNode);
+}
+
+#item6 {
+	position: absolute;
+	top: calc((15px * 3) - 1.5px);
+	right: calc((15px * 7) + 0.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/multiDisruptor.svg);
+}
+
+#item7 {
+	position: absolute;
+	bottom: calc((15px * 0) - 2.5px);
+	right: calc((15px * 1) - 1px);
+	background: var(--healthNode);
+}
+
+#item8 {
+	position: absolute;
+	top: calc((15px * 6) - 1px);
+	left: calc((15px * 4) - 1px);
+	background: var(--healthFragment);
+}
+
+#item9 {
+	position: absolute;
+	top: calc((15px * 8) + 0px);
+	left: calc((15px * 8) + 0.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/kilver.svg);
+}
+
+#item10 {
+	position: absolute;
+	top: calc((15px * 3) - 1.75px);
+	left: calc((15px * 6) + 0px);
+	background: var(--healthFragment);
+}
+
+#item11 {
+	position: absolute;
+	top: calc((15px * 6) - 0.5px);
+	left: calc((15px * 13) + 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/addDisruptor1.svg);
+}
+
+#item12 {
+	position: absolute;
+	bottom: calc((15px * 1) - 2px);
+	right: calc((15px * 4) + 0px);
+	background: var(--healthFragment);
+}
+
+#item13 {
+	position: absolute;
+	top: calc((15px * 7) + 0px);
+	left: calc((15px * 0) - 2px);
+	background: var(--powerFragment);
+}
+
+#item14 {
+	position: absolute;
+	top: calc((15px * 7) + 2px);
+	left: calc((15px * 15) + 3.35px);
+	background: var(--healthFragment);
+}
+
+#item15 {
+	position: absolute;
+	top: calc((15px * 10) + 1px);
+	left: calc((15px * 15) + 3px);
+	background: var(--sizeNode);
+}
+
+#item16 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	left: calc((15px * 13) + 2px);
+	background: var(--note);
+}
+
+#item17 {
+	position: absolute;
+	top: calc((15px * 9) + 0.5px);
+	left: calc((15px * 18) + 4px);
+	background: var(--note);
+}
+
+#item18 {
+	position: absolute;
+	top: calc((15px * 10) + 1.25px);
+	right: calc((15px * 3) - 2px);
+	background: var(--healthFragment);
+}
+
+#item19 {
+	position: absolute;
+	top: calc((15px * 12) + 1.5px);
+	left: calc((15px * 24) + 6.5px);
+	background: var(--powerNode);
+}
+
+#item20 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	left: calc((15px * 5) - 1.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/fieldDisruptor.svg);
+}
+
+#item21 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1px);
+	left: calc((15px * 5) - 1px);
+	background: var(--healthFragment);
+}
+
+#item22 {
+	position: absolute;
+	top: calc((15px * 3) - 2px);
+	left: calc((15px * 7) + 0px);
+	background: var(--note);
+}
+
+#item23 {
+	position: absolute;
+	top: calc((15px * 1) - 2px);
+	right: calc((15px * 1) - 1.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/labcoat.svg);
+}
+
+#item24 {
+	position: absolute;
+	bottom: calc((15px * 5) - 0px);
+	left: calc((15px * 4) - 2.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/firewall.svg);
+}
+
+#item25 {
+	position: absolute;
+	bottom: calc((15px * 4) - 0.5px);
+	left: calc((15px * 7) + 0px);
+	background: var(--note);
+}
+
+#item26 {
+	position: absolute;
+	bottom: calc((15px * 0) - 2.5px);
+	left: calc((15px * 7) + 0px);
+	background: var(--note);
+}
+
+#item27 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	right: calc((15px * 7) + 0px);
+	background: var(--rangeNode);
+}
+
+#item28 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	left: calc((15px * 3) - 2px);
+	background: var(--rangeNode);
+}
+
+#item29 {
+	position: absolute;
+	bottom: calc((15px * 4) - 0.5px);
+	left: calc((15px * 2) - 2.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/bioflux1.svg);
+}
+
+#item30 {
+	position: absolute;
+	top: calc((15px * 4) - 1.5px);
+	right: calc((15px * 4) - 0.5px);
+	background: var(--healthFragment);
+}
+
+#item31 {
+	position: absolute;
+	bottom: calc((15px * 5) + 0px);
+	right: calc((15px * 5) + 0px);
+	background: var(--sizeNode);
+}
+
+#item32 {
+	position: absolute;
+	top: calc((15px * 1) - 2px);
+	right: calc((15px * 4) - 0.5px);
+	background: var(--healthNode);
+}
+
+#item33 {
+	position: absolute;
+	bottom: calc((15px * 6) + 0px);
+	left: calc((15px * 0) - 3px);
+	background: var(--powerNode);
+}
+
+#item34 {
+	position: absolute;
+	bottom: calc((15px * 15) + 4px);
+	left: calc((15px * 6) - 0.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/drone.svg);
+}
+
+#item35 {
+	position: absolute;
+	bottom: calc((15px * 5) - 0.5px);
+	left: calc((15px * 2) - 2px);
+	background: var(--note);
+}
+
+#item36 {
+	position: absolute;
+	top: calc((15px * 2) - 2.5px);
+	left: calc((15px * 7) + 0px);
+	background: var(--powerFragment);
+}
+
+#item37 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1.5px);
+	right: calc((15px * 5) + 0px);
+	background: var(--note);
+}
+
+#item38 {
+	position: absolute;
+	top: calc((15px * 0) - 3px);
+	right: calc((15px * 7) + 0px);
+	background: var(--healthFragment);
+}
+
+#item39 {
+	position: absolute;
+	bottom: calc((15px * 4) - 0.5px);
+	right: calc((15px * 3) - 0.75px);
+	background: var(--healthFragment);
+}
+
+#item40 {
+	position: absolute;
+	bottom: calc((15px * 1) - 1.5px);
+	right: calc((15px * 5) + 0px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/passcode.svg);
+}
+
+#item41 {
+	position: absolute;
+	bottom: calc((15px * 1) - 1.5px);
+	right: calc((15px * 3) - 0.75px);
+	background: var(--note);
+}
+
+#item42 {
+	position: absolute;
+	top: calc((15px * 5) - 1.5px);
+	left: calc((15px * 1) - 2.25px);
+	background: var(--note);
+}
+
+#item43 {
+	position: absolute;
+	top: calc((15px * 6) - 0.65px);
+	left: calc((15px * 4) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/voranj.svg);
+}
+
+#item44 {
+	position: absolute;
+	bottom: calc((15px * 6) + 0px);
+	left: calc((15px * 5) - 1.5px);
+	background: var(--healthFragment);
+}
+
+#item45 {
+	position: absolute;
+	bottom: calc((15px * 12) + 2px);
+	left: calc((15px * 5) - 1.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/hypoAtomizer.svg);
+}
+
+#item46 {
+	position: absolute;
+	bottom: calc((15px * 16) + 4px);
+	left: calc((15px * 3) - 2px);
+	background: var(--healthFragment);
+}
+
+#item47 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	left: calc((15px * 1) - 2.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/addDisruptor2.svg);
+}
+
+#item48 {
+	position: absolute;
+	top: calc((15px * 2) - 2px);
+	left: calc((15px * 0) - 2px);
+	background: var(--note);
+}
+
+#item49 {
+	position: absolute;
+	top: calc((15px * 1) - 2.5px);
+	left: calc((15px * 9) + 1px);
+	background: var(--powerFragment);
+}
+
+#item50 {
+	position: absolute;
+	top: calc((15px * 1) - 2.5px);
+	left: calc((15px * 10) + 1px);
+	background: var(--powerFragment);
+}
+
+#item51 {
+	position: absolute;
+	bottom: calc((15px * 6) + 0px);
+	right: calc((15px * 0) - 2.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/inertialPulse.svg);
+}
+
+#item52 {
+	position: absolute;
+	bottom: calc((15px * 5) + 0px);
+	left: calc((15px * 0) - 2px);
+	background: var(--powerFragment);
+}
+
+#item53 {
+	position: absolute;
+	bottom: calc((15px * 12) + 2px);
+	left: calc((15px * 6) - 0.5px);
+	background: var(--healthFragment);
+}
+
+#item54 {
+	position: absolute;
+	bottom: calc((15px * 16) + 4px);
+	right: calc((15px * 7) + 0px);
+	background: var(--healthNode);
+}
+
+#item55 {
+	position: absolute;
+	top: calc((15px * 6) - 0.5px);
+	right: calc((15px * 0) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/grapple.svg);
+}
+
+#item56 {
+	position: absolute;
+	top: calc((15px * 9) + 1px);
+	left: calc((15px * 1) - 2px);
+	background: var(--healthFragment);
+}
+
+#item57 {
+	position: absolute;
+	top: calc((15px * 0) - 3px);
+	right: calc((15px * 2) - 1px);
+	background: var(--powerFragment);
+}
+
+#item58 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	right: calc((15px * 7) + 0px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/tetheredCharge.svg);
+}
+
+#item59 {
+	position: absolute;
+	top: calc((15px * 7) + 0px);
+	left: calc((15px * 8) - 1px);
+	background: var(--note);
+}
+
+#item60 {
+	position: absolute;
+	top: calc((15px * 6) - 0.5px);
+	right: calc((15px * 7) + 0px);
+	background: var(--healthFragment);
+}
+
+#item61 {
+	position: absolute;
+	top: calc((15px * 5) - 1px);
+	right: calc((15px * 0) - 2px);
+	background: var(--healthFragment);
+}
+
+#item62 {
+	position: absolute;
+	top: calc((15px * 3) - 1.5px);
+	right: calc((15px * 0) - 2px);
+	background: var(--powerNode);
+}
+
+#item63 {
+	position: absolute;
+	top: calc((15px * 5) - 1px);
+	left: calc((15px * 4) - 2.5px);
+	background: var(--note);
+}
+
+#item64 {
+	position: absolute;
+	top: calc((15px * 4) - 1px);
+	left: calc((15px * 4) - 2.5px);
+	background: var(--powerFragment);
+}
+
+#item65 {
+	position: absolute;
+	top: calc((15px * 4) - 1px);
+	right: calc((15px * 5) - 0.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/reflector.svg);
+}
+
+#item66 {
+	position: absolute;
+	top: calc((15px * 5) - 1px);
+	right: calc((15px * 6) + 0px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/droneLaunch.svg);
+}
+
+#item67 {
+	position: absolute;
+	top: calc((15px * 9) + 1px);
+	right: calc((15px * 4) - 1px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/trenchcoat.svg);
+}
+
+#item68 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	left: calc((15px * 7) + 0px);
+	background: var(--rangeNode);
+}
+
+#item69 {
+	position: absolute;
+	bottom: calc((15px * 1) - 2px);
+	right: calc((15px * 2) - 2px);
+	background: var(--powerFragment);
+}
+
+#item70 {
+	position: absolute;
+	top: calc((15px * 1) - 2px);
+	left: calc((15px * 7) - 0.5px);
+	background: var(--note);
+}
+
+#item71 {
+	position: absolute;
+	bottom: calc((15px * 2) - 2px);
+	right: calc((15px * 1) - 1px);
+	background: var(--powerFragment);
+}
+
+#item72 {
+	position: absolute;
+	top: calc((15px * 1) - 2.5px);
+	right: calc((15px * 10) + 1.5px);
+	background: var(--note);
+}
+
+#item73 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1px);
+	right: calc((15px * 5) - 1px);
+	background: var(--note);
+}
+
+#item74 {
+	position: absolute;
+	bottom: calc((15px * 6) + 0px);
+	right: calc((15px * 4) - 1px);
+	background: var(--powerFragment);
+}
+
+#item75 {
+	position: absolute;
+	top: calc((15px * 7) + 1px);
+	right: calc((15px * 2) - 2px);
+	background: var(--powerFragment);
+}
+
+#item76 {
+	position: absolute;
+	top: calc((15px * 5) + 0px);
+	right: calc((15px * 4) - 1px);
+	background: var(--healthFragment);
+}
+
+#item77 {
+	position: absolute;
+	top: calc((15px * 9) + 1px);
+	left: calc((15px * 3) - 1.25px);
+	background: var(--healthNode);
+}
+
+#item78 {
+	position: absolute;
+	top: calc((15px * 5) + 0px);
+	left: calc((15px * 2) - 1.5px);
+	background: var(--note);
+}
+
+#item79 {
+	position: absolute;
+	bottom: calc((15px * 3) + 0px);
+	left: calc((15px * 3) - 1.25px);
+	background: var(--note);
+}
+
+#item80 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	left: calc((15px * 3) - 1.25px);
+	background: var(--healthFragment);
+}
+
+#item81 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	right: calc((15px * 9) + 2px);
+	background: var(--note);
+}
+
+#item82 {
+	position: absolute;
+	bottom: calc((15px * 3) + 0px);
+	right: calc((15px * 10) + 2px);
+	background: var(--note);
+}
+
+#item83 {
+	position: absolute;
+	bottom: calc((15px * 6) + 1px);
+	right: calc((15px * 10) + 2px);
+	background: var(--healthFragment);
+}
+
+#item84 {
+	position: absolute;
+	top: calc((15px * 4) - 2px);
+	right: calc((15px * 9) + 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/distortionField.svg);
+}
+
+#item85 {
+	position: absolute;
+	bottom: calc((15px * 0) - 2px);
+	right: calc((15px * 6) + 1px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/addBomb.svg);
+}
+
+#item86 {
+	position: absolute;
+	top: calc((15px * 0) - 2.5px);
+	right: calc((15px * 2) - 1.5px);
+	background: var(--healthNode);
+}
+
+#item87 {
+	position: absolute;
+	bottom: calc((15px * 5) - 1px);
+	right: calc((15px * 6) + 0px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/lightningGun.svg);
+}
+
+#item88 {
+	position: absolute;
+	top: calc((15px * 2) - 2.5px);
+	left: calc((15px * 8) + 0px);
+	background: var(--powerFragment);
+}
+
+#item89 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	right: calc((15px * 6) + 1px);
+	background: var(--powerNode);
+}
+
+#item90 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	right: calc((15px * 7) + 1px);
+	background: var(--healthNode);
+}
+
+#item91 {
+	position: absolute;
+	bottom: calc((15px * 0) - 2px);
+	left: calc((15px * 9) - 0px);
+	background: var(--rangeNode);
+}
+
+#item92 {
+	position: absolute;
+	bottom: calc((15px * 0) - 2px);
+	left: calc((15px * 7) - 0.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/shards.svg);
+}
+
+#item93 {
+	position: absolute;
+	bottom: calc((15px * 3) - 0px);
+	left: calc((15px * 8) + 2px);
+	background: var(--note);
+}
+
+#item94 {
+	position: absolute;
+	top: calc((15px * 2) - 2px);
+	left: calc((15px * 4) - 1.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/droneTeleport.svg);
+}
+
+#item95 {
+	position: absolute;
+	top: calc((15px * 7) + 0px);
+	left: calc((15px * 7) + 0px);
+	background: var(--note);
+}
+
+#item96 {
+	position: absolute;
+	bottom: calc((15px * 3) - 1.5px);
+	left: calc((15px * 3) - 1px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/dataBomb.svg);
+}
+
+#item97 {
+	position: absolute;
+	top: calc((15px * 0) - 2px);
+	right: calc((15px * 2) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/turbinePulse.svg);
+}
+
+#item98 {
+	position: absolute;
+	top: calc((15px * 4) - 2px);
+	left: calc((15px * 7) - 0.5px);
+	background: var(--note);
+}
+
+#item99 {
+	position: absolute;
+	top: calc((15px * 6) - 0.5px);
+	left: calc((15px * 5) - 1px);
+	background: var(--healthNode);
+}
+
+#item100 {
+	position: absolute;
+	top: calc((15px * 5) - 1.5px);
+	left: calc((15px * 7) - 0.5px);
+	background: var(--powerFragment);
+}
+
+#item101 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	left: calc((15px * 4) - 1.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/bioflux2.svg);
+}
+
+#item102 {
+	position: absolute;
+	bottom: calc((15px * 2) - 1px);
+	left: calc((15px * 0) - 2px);
+	background: var(--healthFragment);
+}
+
+#item103 {
+	position: absolute;
+	top: calc((15px * 4) - 2px);
+	left: calc((15px * 2) - 2.5px);
+	background: var(--note);
+}
+
+#item104 {
+	position: absolute;
+	top: calc((15px * 3) - 2px);
+	right: calc((15px * 1) - 2.5px);
+	background: var(--note);
+}
+
+#item105 {
+	position: absolute;
+	top: calc((15px * 2) - 2.5px);
+	left: calc((15px * 6) - 1.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/sudranKey.svg);
+}
+
+#item106 {
+	position: absolute;
+	top: calc((15px * 1) - 2.5px);
+	left: calc((15px * 2) - 2.5px);
+	background: var(--powerNode);
+}
+
+#item107 {
+	position: absolute;
+	bottom: calc((15px * 4) + 0px);
+	right: calc((15px * 3) - 2px);
+	background: var(--healthFragment);
+}
+
+#item108 {
+	position: absolute;
+	bottom: calc((15px * 1) - 2px);
+	left: calc((15px * 3) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/redcoat.svg);
+}
+
+#item109 {
+	position: absolute;
+	bottom: calc((15px * 15) + 4px);
+	left: calc((15px * 4) - 2.5px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/ionBeam.svg);
+}
+
+#item110 {
+	position: absolute;
+	bottom: calc((15px * 1) - 1.5px);
+	left: calc((15px * 8) + 0.5px);
+	background: var(--powerFragment);
+}
+
+#item111 {
+	position: absolute;
+	bottom: calc((15px * 0) - 2px);
+	left: calc((15px * 4) - 2px);
+	background: var(--powerFragment);
+}
+
+#item112 {
+	position: absolute;
+	bottom: calc((15px * 6) - 1px);
+	left: calc((15px * 2) - 1.5px);
+	background: var(--healthNode);
+}
+
+#item113 {
+	position: absolute;
+	bottom: calc((15px * 6) - 1px);
+	left: calc((15px * 4) - 1px);
+	background: var(--powerFragment);
+}
+
+#item114 {
+	position: absolute;
+	bottom: calc((15px * 5) - 1.5px);
+	left: calc((15px * 4) - 1px);
+	background: var(--note);
+}
+
+#item115 {
+	position: absolute;
+	bottom: calc((15px * 5) - 1.5px);
+	left: calc((15px * 5) + 1.25px);
+	background: var(--powerFragment);
+}
+
+#item116 {
+	position: absolute;
+	bottom: calc((15px * 10) + 0px);
+	left: calc((15px * 5) - 1px);
+	background: var(--sizeNode);
+}
+
+#item117 {
+	position: absolute;
+	top: calc((15px * 12) + 1.5px);
+	left: calc((15px * 2) - 1.5px);
+	background: var(--note);
+}
+
+#item118 {
+	position: absolute;
+	bottom: calc((15px * 10) + 0px);
+	left: calc((15px * 1) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/reverseSlicer.svg);
+}
+
+#item119 {
+	position: absolute;
+	top: calc((15px * 7) + 0px);
+	left: calc((15px * 3) - 1.5px);
+	background: var(--note);
+}
+
+#item120 {
+	position: absolute;
+	bottom: calc((15px * 3) - 2px);
+	right: calc((15px * 5) + 0px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/orbitalDischarge.svg);
+}
+
+#item121 {
+	position: absolute;
+	top: calc((15px * 3) - 1.5px);
+	left: calc((15px * 5) - 1px);
+	background: var(--powerFragment);
+}
+
+#item122 {
+	position: absolute;
+	top: calc((15px * 4) - 1px);
+	left: calc((15px * 1) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/flamethrower.svg);
+}
+
+#item123 {
+	position: absolute;
+	bottom: calc((15px * 5) - 0px);
+	left: calc((15px * 3) - 2px);
+	background: url(https://raw.githubusercontent.com/axiom-verge-speedrunning/sudra-routes/master/frontend/src/assets/items/quantumVariegator.svg);
+}
+
+#item124 {
+	position: absolute;
+	top: calc((15px * 7) + 2px);
+	right: calc((15px * 1) - 2.5px);
+	background: var(--note);
 }
