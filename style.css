@@ -2,9 +2,16 @@ body {
 	background: black;
 }
 
-button {
+input {
 	position: absolute;
 	top: 0px;
+	left: 0px;
+	z-index: 5;
+}
+
+button {
+	position: absolute;
+	top: 10px;
 	left: 0px;
 	z-index: 5;
 }
