@@ -25,7 +25,9 @@ function getData(xml) {
 }
 
 function setData(_itemID, _url, _itemName) {
-  document.getElementById(_itemID).background = _url;
+  if (_itemName == "Lore") { _url = `url(items/DigitalPaper.svg)`; }
+  else if (_itemName == "Empty") { _url = ""; }
+  document.getElementById(_itemID).style.background = _url;
   logMe(_itemID, _url, _itemName)
 }
 
