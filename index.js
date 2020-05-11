@@ -20,17 +20,17 @@ function getData(xml) {
     var itemID = "item" + locationID[i].innerHTML;
     var itemURL = `items/${itemName[i].innerHTML}.svg`;
     var url = `url(${itemURL})`;
-    setData(itemID, url);
+    setData(itemID, url, itemName[i].innerHTML);
   }
 }
 
-function setData(_itemID, _url) {
+function setData(_itemID, _url, _itemName) {
   document.getElementById(_itemID).background = _url;
-  //logMe(_itemID, _url, itemName[i].innerHTML)
+  logMe(_itemID, _url, _itemName)
 }
 
 function logMe(_itemID, _url, _itemName) {
-  console.log(`Item ${itemName[i].innerHTML} Placed`);
+  console.log(`Item ${_itemName} Placed`);
   console.log(_itemID);
   console.log(_url);
   console.log("------------------------------------");
