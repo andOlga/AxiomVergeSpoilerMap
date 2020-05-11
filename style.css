@@ -11,8 +11,8 @@ input {
 
 button {
 	position: absolute;
-	top: 10px;
-	left: 0px;
+	top: 0px;
+	left: 100px;
 	z-index: 5;
 }
 
@@ -287,7 +287,7 @@ button {
 	position: absolute;
 	bottom: calc((15px * 5) - 0px);
 	left: calc((15px * 4) - 2.5px);
-	background: url(items/FireWall.svg);
+	background: url(items/Firewall.svg);
 }
 
 #item25 {
