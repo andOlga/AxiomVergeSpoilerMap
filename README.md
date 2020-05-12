@@ -1,7 +1,7 @@
 # Axiom Verge Randomizer Spoiler Map
 
-## Created By: VideoGameRoulette
-## Contributors: WillowTheWhisperSR
+#### Created By: VideoGameRoulette
+#### Contributors: WillowTheWhisperSR
 
 Reads Axiom Verge Randomizer spoiler xml files and outputs item locations to screen.
 
