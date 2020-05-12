@@ -31,7 +31,8 @@ button {
 	left: 0px;
 	width: 1917px;
 	height: 1755px;
-	background: url(Sudra-Map.svg) no-repeat;
+	background: url(Sudra-Map.svg);
+	background-repeat: no-repeat;
 }
 
 .area1 {
@@ -126,866 +127,990 @@ button {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/DataDisruptor.svg) no-repeat;
+	background: url(items/DataDisruptor.svg);
+	background-repeat: no-repeat;
 }
 
 #item2 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/Nova.svg) no-repeat;
+	background: url(items/Nova.svg);
+	background-repeat: no-repeat;
 }
 
 #item3 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/SizeNode.svg) no-repeat;
+	background: url(items/SizeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item4 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/Drill.svg) no-repeat;
+	background: url(items/Drill.svg);
+	background-repeat: no-repeat;
 }
 
 #item5 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 13) - 8px);
-	background: url(items/PowerNode.svg) no-repeat;
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item6 {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/MultiDisruptor.svg) no-repeat;
+	background: url(items/MultiDisruptor.svg);
+	background-repeat: no-repeat;
 }
 
 #item7 {
 	position: absolute;
 	top: calc((27px * 16) - 8px);
 	left: calc((27px * 14) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item8 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item9 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/Kilver.svg) no-repeat;
+	background: url(items/Kilver.svg);
+	background-repeat: no-repeat;
 }
 
 #item10 {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
 	left: calc((27px * 6) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item11 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 13) - 8px);
-	background: url(items/AddressDisruptor1.svg) no-repeat;
+	background: url(items/AddressDisruptor1.svg);
+	background-repeat: no-repeat;
 }
 
 #item12 {
 	position: absolute;
 	top: calc((27px * 15) - 8px);
 	left: calc((27px * 11) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item13 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 0) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item14 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item15 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/SizeNode.svg) no-repeat;
+	background: url(items/SizeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item16 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 13) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item17 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 18) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item18 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 21) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item19 {
 	position: absolute;
 	top: calc((27px * 12) - 8px);
 	left: calc((27px * 24) - 8px);
-	background: url(items/PowerNode.svg) no-repeat;
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item20 {
 	position: absolute;
 	top: calc((27px * 23) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/HighJump.svg) no-repeat;
+	background: url(items/HighJump.svg);
+	background-repeat: no-repeat;
 }
 
 #item21 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item22 {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item23 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 12) - 8px);
-	background: url(items/GlitchTeleport.svg) no-repeat;
+	background: url(items/GlitchTeleport.svg);
+	background-repeat: no-repeat;
 }
 
 #item24 {
 	position: absolute;
 	top: calc((27px * 21) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/FireWall.svg) no-repeat;
+	background: url(items/FireWall.svg);
+	background-repeat: no-repeat;
 }
 
 #item25 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item26 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item27 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 17) - 8px);
-	background: url(items/RangeNode.svg) no-repeat;
+	background: url(items/RangeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item28 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/RangeNode.svg) no-repeat;
+	background: url(items/RangeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item29 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/TendrilsTop.svg) no-repeat;
+	background: url(items/TendrilsTop.svg);
+	background-repeat: no-repeat;
 }
 
 #item30 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item31 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/SizeNode.svg) no-repeat;
+	background: url(items/SizeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item32 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item33 {
 	position: absolute;
 	top: calc((27px * 20) - 8px);
 	left: calc((27px * 0) - 8px);
-	background: url(items/PowerNode.svg) no-repeat;
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item34 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 6) - 8px);
-	background: url(items/DroneGun.svg) no-repeat;
+	background: url(items/DroneGun.svg);
+	background-repeat: no-repeat;
 }
 
 #item35 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item36 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item37 {
 	position: absolute;
 	top: calc((27px * 12) - 8px);
 	left: calc((27px * 19) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item38 {
 	position: absolute;
 	top: calc((27px * 0) - 8px);
 	left: calc((27px * 17) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item39 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 10) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item40 {
 	position: absolute;
 	top: calc((27px * 12) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/PasswordTool.svg) no-repeat;
+	background: url(items/PasswordTool.svg);
+	background-repeat: no-repeat;
 }
 
 #item41 {
 	position: absolute;
 	top: calc((27px * 12) - 8px);
 	left: calc((27px * 10) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item42 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 1) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item43 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/Voranj.svg) no-repeat;
+	background: url(items/Voranj.svg);
+	background-repeat: no-repeat;
 }
 
 #item44 {
 	position: absolute;
 	top: calc((27px * 20) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item45 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/VerticalSpread.svg) no-repeat;
+	background: url(items/VerticalSpread.svg);
+	background-repeat: no-repeat;
 }
 
 #item46 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item47 {
 	position: absolute;
 	top: calc((27px * 23) - 8px);
 	left: calc((27px * 1) - 8px);
-	background: url(items/AddressDisruptor2.svg) no-repeat;
+	background: url(items/AddressDisruptor2.svg);
+	background-repeat: no-repeat;
 }
 
 #item48 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 0) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item49 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item50 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 10) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item51 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 24) - 8px);
-	background: url(items/InertialPulse.svg) no-repeat;
+	background: url(items/InertialPulse.svg);
+	background-repeat: no-repeat;
 }
 
 #item52 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 0) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item53 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 6) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item54 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item55 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 16) - 8px);
-	background: url(items/Grapple.svg) no-repeat;
+	background: url(items/Grapple.svg);
+	background-repeat: no-repeat;
 }
 
 #item56 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 1) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item57 {
 	position: absolute;
 	top: calc((27px * 0) - 8px);
 	left: calc((27px * 11) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item58 {
 	position: absolute;
 	top: calc((27px * 23) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/TetheredCharge.svg) no-repeat;
+	background: url(items/TetheredCharge.svg);
+	background-repeat: no-repeat;
 }
 
 #item59 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item60 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item61 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 16) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item62 {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
 	left: calc((27px * 16) - 8px);
-	background: url(items/PowerNode.svg) no-repeat;
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item63 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item64 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item65 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 11) - 8px);
-	background: url(items/Reflect.svg) no-repeat;
+	background: url(items/Reflect.svg);
+	background-repeat: no-repeat;
 }
 
 #item66 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 10) - 8px);
-	background: url(items/EnhancedLaunch.svg) no-repeat;
+	background: url(items/EnhancedLaunch.svg);
+	background-repeat: no-repeat;
 }
 
 #item67 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/BlackCoat.svg) no-repeat;
+	background: url(items/BlackCoat.svg);
+	background-repeat: no-repeat;
 }
 
 #item68 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/RangeNode.svg) no-repeat;
+	background: url(items/RangeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item69 {
 	position: absolute;
 	top: calc((27px * 13) - 8px);
 	left: calc((27px * 22) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item70 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item71 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 14) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item72 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 23) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item73 {
 	position: absolute;
 	top: calc((27px * 15) - 8px);
 	left: calc((27px * 6) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item74 {
 	position: absolute;
 	top: calc((27px * 12) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item75 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item76 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item77 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item78 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item79 {
 	position: absolute;
 	top: calc((27px * 15) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item80 {
 	position: absolute;
 	top: calc((27px * 16) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item81 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 12) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item82 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 11) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item83 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 11) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item84 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 12) - 8px);
-	background: url(items/DistortionField.svg) no-repeat;
+	background: url(items/DistortionField.svg);
+	background-repeat: no-repeat;
 }
 
 #item85 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/GlitchBomb.svg) no-repeat;
+	background: url(items/GlitchBomb.svg);
+	background-repeat: no-repeat;
 }
 
 #item86 {
 	position: absolute;
 	top: calc((27px * 0) - 8px);
 	left: calc((27px * 13) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item87 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/LightningGun.svg) no-repeat;
+	background: url(items/LightningGun.svg);
+	background-repeat: no-repeat;
 }
 
 #item88 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item89 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/PowerNode.svg) no-repeat;
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item90 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 14) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item91 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/RangeNode.svg) no-repeat;
+	background: url(items/RangeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item92 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/Shards.svg) no-repeat;
+	background: url(items/Shards.svg);
+	background-repeat: no-repeat;
 }
 
 #item93 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item94 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/DroneTeleport.svg) no-repeat;
+	background: url(items/DroneTeleport.svg);
+	background-repeat: no-repeat;
 }
 
 #item95 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item96 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/DataGrenade.svg) no-repeat;
+	background: url(items/DataGrenade.svg);
+	background-repeat: no-repeat;
 }
 
 #item97 {
 	position: absolute;
 	top: calc((27px * 0) - 8px);
 	left: calc((27px * 9) - 8px);
-	background: url(items/TriCone.svg) no-repeat;
+	background: url(items/TriCone.svg);
+	background-repeat: no-repeat;
 }
 
 #item98 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item99 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item100 {
 	position: absolute;
 	top: calc((27px * 5) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item101 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/TendrilsBottom.svg) no-repeat;
+	background: url(items/TendrilsBottom.svg);
+	background-repeat: no-repeat;
 }
 
 #item102 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 0) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item103 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item104 {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item105 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 6) - 8px);
-	background: url(items/BreachSuppressor.svg) no-repeat;
+	background: url(items/BreachSuppressor.svg);
+	background-repeat: no-repeat;
 }
 
 #item106 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/PowerNode.svg) no-repeat;
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item107 {
 	position: absolute;
 	top: calc((27px * 17) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/HealthNodeFragment.svg) no-repeat;
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item108 {
 	position: absolute;
 	top: calc((27px * 20) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/RedCoat.svg) no-repeat;
+	background: url(items/RedCoat.svg);
+	background-repeat: no-repeat;
 }
 
 #item109 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/IonBeam.svg) no-repeat;
+	background: url(items/IonBeam.svg);
+	background-repeat: no-repeat;
 }
 
 #item110 {
 	position: absolute;
 	top: calc((27px * 17) - 8px);
 	left: calc((27px * 8) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item111 {
 	position: absolute;
 	top: calc((27px * 21) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item112 {
 	position: absolute;
 	top: calc((27px * 18) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/HealthNode.svg) no-repeat;
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item113 {
 	position: absolute;
 	top: calc((27px * 18) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item114 {
 	position: absolute;
 	top: calc((27px * 19) - 8px);
 	left: calc((27px * 4) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item115 {
 	position: absolute;
 	top: calc((27px * 19) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item116 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/SizeNode.svg) no-repeat;
+	background: url(items/SizeNode.svg);
+	background-repeat: no-repeat;
 }
 
 #item117 {
 	position: absolute;
 	top: calc((27px * 12) - 8px);
 	left: calc((27px * 2) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item118 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 1) - 8px);
-	background: url(items/Scythe.svg) no-repeat;
+	background: url(items/Scythe.svg);
+	background-repeat: no-repeat;
 }
 
 #item119 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
 
 #item120 {
 	position: absolute;
 	top: calc((27px * 13) - 8px);
 	left: calc((27px * 10) - 8px);
-	background: url(items/WallTrace.svg) no-repeat;
+	background: url(items/WallTrace.svg);
+	background-repeat: no-repeat;
 }
 
 #item121 {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
 	left: calc((27px * 5) - 8px);
-	background: url(items/PowerNodeFragment.svg) no-repeat;
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
 }
 
 #item122 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
 	left: calc((27px * 1) - 8px);
-	background: url(items/FlameThrower.svg) no-repeat;
+	background: url(items/FlameThrower.svg);
+	background-repeat: no-repeat;
 }
 
 #item123 {
 	position: absolute;
 	top: calc((27px * 16) - 8px);
 	left: calc((27px * 3) - 8px);
-	background: url(items/Swim.svg) no-repeat;
+	background: url(items/Swim.svg);
+	background-repeat: no-repeat;
 }
 
 #item124 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg) no-repeat;
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
 }
