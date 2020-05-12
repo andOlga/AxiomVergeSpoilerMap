@@ -28,6 +28,6 @@ function setData(_itemID, _url, _itemName) {
 
   if (_itemName == "Lore") { _url = `url(items/DigitalPaper.svg)`; } // IF ITEM IS LORE REPLACE URL WITH CORRECT URL PATH
   else if (_itemName == "Empty") { _url = ""; } // IF ITEM IS EMPTY SET ITEM URL PATH TO EMPTY STRING
-  document.getElementById(_itemID).style.background = _url; // SET DOM ITEM BACKGROUND 
+  document.getElementById(_itemID).style.backgroundImage = _url; // SET DOM ITEM BACKGROUND 
 
 }

@@ -117,7 +117,7 @@ button {
 }
 
 .item {
-	border: 8.5px white solid;
+	border: 8.5px transparent solid;
 	width: 19px;
 	height: 19px;
 	z-index: 2;
