@@ -1,6 +1,9 @@
 # Axiom Verge Randomizer Spoiler Map
 
-- Reads Axiom Verge Randomizer spoiler xml files and outputs item locations to screen.
+## Created By: VideoGameRoulette
+## Contributors: WillowTheWhisperSR
+
+Reads Axiom Verge Randomizer spoiler xml files and outputs item locations to screen.
 
 # How To Use
 
