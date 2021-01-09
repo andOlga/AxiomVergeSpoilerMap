@@ -123,6 +123,7 @@ button {
 	z-index: 2;
 }
 
+/* ERIBU ITEMS */
 #item1 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
@@ -179,6 +180,79 @@ button {
 	background-repeat: no-repeat;
 }
 
+#item12 {
+	position: absolute;
+	top: calc((27px * 15) - 8px);
+	left: calc((27px * 11) - 8px);
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item56 {
+	position: absolute;
+	top: calc((27px * 9) - 8px);
+	left: calc((27px * 1) - 8px);
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item71 {
+	position: absolute;
+	top: calc((27px * 14) - 8px);
+	left: calc((27px * 14) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item84 {
+	position: absolute;
+	top: calc((27px * 0) - 8px);
+	left: calc((27px * 13) - 8px);
+	background: url(items/HealthNode.svg);
+	background-repeat: no-repeat;
+}
+
+#item85 {
+	position: absolute;
+	top: calc((27px * 11) - 8px);
+	left: calc((27px * 9) - 8px);
+	background: url(items/LightningGun.svg);
+	background-repeat: no-repeat;
+}
+
+#item95 {
+	position: absolute;
+	top: calc((27px * 7) - 8px);
+	left: calc((27px * 7) - 8px);
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
+}
+
+#item121 {
+	position: absolute;
+	top: calc((27px * 13) - 8px);
+	left: calc((27px * 10) - 8px);
+	background: url(items/WallTrace.svg);
+	background-repeat: no-repeat;
+}
+
+#item122 {
+	position: absolute;
+	top: calc((27px * 3) - 8px);
+	left: calc((27px * 5) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item123 {
+	position: absolute;
+	top: calc((27px * 4) - 8px);
+	left: calc((27px * 1) - 8px);
+	background: url(items/FlameThrower.svg);
+	background-repeat: no-repeat;
+}
+
+/* ABSU ITEMS */
 #item8 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
@@ -211,14 +285,6 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item12 {
-	position: absolute;
-	top: calc((27px * 15) - 8px);
-	left: calc((27px * 11) - 8px);
-	background: url(items/HealthNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
 #item13 {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
@@ -231,7 +297,7 @@ button {
 	position: absolute;
 	top: calc((27px * 7) - 8px);
 	left: calc((27px * 15) - 8px);
-	background: url(items/HealthNodeFragment.svg);
+	background: url(items/HealthNode.svg);
 	background-repeat: no-repeat;
 }
 
@@ -275,46 +341,6 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item20 {
-	position: absolute;
-	top: calc((27px * 23) - 8px);
-	left: calc((27px * 5) - 8px);
-	background: url(items/HighJump.svg);
-	background-repeat: no-repeat;
-}
-
-#item21 {
-	position: absolute;
-	top: calc((27px * 10) - 8px);
-	left: calc((27px * 5) - 8px);
-	background: url(items/HealthNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item22 {
-	position: absolute;
-	top: calc((27px * 3) - 8px);
-	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg);
-	background-repeat: no-repeat;
-}
-
-#item23 {
-	position: absolute;
-	top: calc((27px * 1) - 8px);
-	left: calc((27px * 12) - 8px);
-	background: url(items/GlitchTeleport.svg);
-	background-repeat: no-repeat;
-}
-
-#item24 {
-	position: absolute;
-	top: calc((27px * 21) - 8px);
-	left: calc((27px * 4) - 8px);
-	background: url(items/FireWall.svg);
-	background-repeat: no-repeat;
-}
-
 #item25 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
@@ -336,6 +362,119 @@ button {
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 17) - 8px);
 	background: url(items/RangeNode.svg);
+	background-repeat: no-repeat;
+}
+
+#item35 {
+	position: absolute;
+	top: calc((27px * 9) - 8px);
+	left: calc((27px * 2) - 8px);
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
+}
+
+#item36 {
+	position: absolute;
+	top: calc((27px * 2) - 8px);
+	left: calc((27px * 7) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item37 {
+	position: absolute;
+	top: calc((27px * 12) - 8px);
+	left: calc((27px * 19) - 8px);
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
+}
+
+#item38 {
+	position: absolute;
+	top: calc((27px * 0) - 8px);
+	left: calc((27px * 17) - 8px);
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item48 {
+	position: absolute;
+	top: calc((27px * 1) - 8px);
+	left: calc((27px * 10) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item49 {
+	position: absolute;
+	top: calc((27px * 1) - 8px);
+	left: calc((27px * 9) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item50 {
+	position: absolute;
+	top: calc((27px * 8) - 8px);
+	left: calc((27px * 24) - 8px);
+	background: url(items/InertialPulse.svg);
+	background-repeat: no-repeat;
+}
+
+#item68 {
+	position: absolute;
+	top: calc((27px * 11) - 8px);
+	left: calc((27px * 7) - 8px);
+	background: url(items/RangeNode.svg);
+	background-repeat: no-repeat;
+}
+
+#item69 {
+	position: absolute;
+	top: calc((27px * 13) - 8px);
+	left: calc((27px * 22) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item86 {
+	position: absolute;
+	top: calc((27px * 2) - 8px);
+	left: calc((27px * 8) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item96 {
+	position: absolute;
+	top: calc((27px * 11) - 8px);
+	left: calc((27px * 3) - 8px);
+	background: url(items/DataGrenade.svg);
+	background-repeat: no-repeat;
+}
+
+/* ZI ITEMS */
+#item22 {
+	position: absolute;
+	top: calc((27px * 3) - 8px);
+	left: calc((27px * 7) - 8px);
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
+}
+
+#item23 {
+	position: absolute;
+	top: calc((27px * 10) - 8px);
+	left: calc((27px * 5) - 8px);
+	background: url(items/HealthNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item24 {
+	position: absolute;
+	top: calc((27px * 1) - 8px);
+	left: calc((27px * 12) - 8px);
+	background: url(items/GlitchTeleport.svg);
 	background-repeat: no-repeat;
 }
 
@@ -379,54 +518,6 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item33 {
-	position: absolute;
-	top: calc((27px * 20) - 8px);
-	left: calc((27px * 0) - 8px);
-	background: url(items/PowerNode.svg);
-	background-repeat: no-repeat;
-}
-
-#item34 {
-	position: absolute;
-	top: calc((27px * 11) - 8px);
-	left: calc((27px * 6) - 8px);
-	background: url(items/DroneGun.svg);
-	background-repeat: no-repeat;
-}
-
-#item35 {
-	position: absolute;
-	top: calc((27px * 9) - 8px);
-	left: calc((27px * 2) - 8px);
-	background: url(items/DigitalPaper.svg);
-	background-repeat: no-repeat;
-}
-
-#item36 {
-	position: absolute;
-	top: calc((27px * 2) - 8px);
-	left: calc((27px * 7) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item37 {
-	position: absolute;
-	top: calc((27px * 12) - 8px);
-	left: calc((27px * 19) - 8px);
-	background: url(items/DigitalPaper.svg);
-	background-repeat: no-repeat;
-}
-
-#item38 {
-	position: absolute;
-	top: calc((27px * 0) - 8px);
-	left: calc((27px * 17) - 8px);
-	background: url(items/HealthNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
 #item39 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
@@ -467,6 +558,55 @@ button {
 	background-repeat: no-repeat;
 }
 
+#item51 {
+	position: absolute;
+	top: calc((27px * 0) - 8px);
+	left: calc((27px * 11) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+#item57 {
+	position: absolute;
+	top: calc((27px * 0) - 8px);
+	left: calc((27px * 11) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+/* KUR ITEMS */
+#item20 {
+	position: absolute;
+	top: calc((27px * 23) - 8px);
+	left: calc((27px * 5) - 8px);
+	background: url(items/HighJump.svg);
+	background-repeat: no-repeat;
+}
+
+#item21 {
+	position: absolute;
+	top: calc((27px * 21) - 8px);
+	left: calc((27px * 4) - 8px);
+	background: url(items/FireWall.svg);
+	background-repeat: no-repeat;
+}
+
+#item33 {
+	position: absolute;
+	top: calc((27px * 20) - 8px);
+	left: calc((27px * 0) - 8px);
+	background: url(items/PowerNode.svg);
+	background-repeat: no-repeat;
+}
+
+#item34 {
+	position: absolute;
+	top: calc((27px * 11) - 8px);
+	left: calc((27px * 6) - 8px);
+	background: url(items/DroneGun.svg);
+	background-repeat: no-repeat;
+}
+
 #item44 {
 	position: absolute;
 	top: calc((27px * 20) - 8px);
@@ -499,47 +639,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item48 {
-	position: absolute;
-	top: calc((27px * 2) - 8px);
-	left: calc((27px * 0) - 8px);
-	background: url(items/DigitalPaper.svg);
-	background-repeat: no-repeat;
-}
-
-#item49 {
-	position: absolute;
-	top: calc((27px * 1) - 8px);
-	left: calc((27px * 9) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item50 {
-	position: absolute;
-	top: calc((27px * 1) - 8px);
-	left: calc((27px * 10) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item51 {
-	position: absolute;
-	top: calc((27px * 8) - 8px);
-	left: calc((27px * 24) - 8px);
-	background: url(items/InertialPulse.svg);
-	background-repeat: no-repeat;
-}
-
 #item52 {
-	position: absolute;
-	top: calc((27px * 8) - 8px);
-	left: calc((27px * 0) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item53 {
 	position: absolute;
 	top: calc((27px * 14) - 8px);
 	left: calc((27px * 6) - 8px);
@@ -547,7 +647,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item54 {
+#item53 {
 	position: absolute;
 	top: calc((27px * 10) - 8px);
 	left: calc((27px * 9) - 8px);
@@ -555,27 +655,11 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item55 {
+#item54 {
 	position: absolute;
 	top: calc((27px * 6) - 8px);
 	left: calc((27px * 16) - 8px);
 	background: url(items/Grapple.svg);
-	background-repeat: no-repeat;
-}
-
-#item56 {
-	position: absolute;
-	top: calc((27px * 9) - 8px);
-	left: calc((27px * 1) - 8px);
-	background: url(items/HealthNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item57 {
-	position: absolute;
-	top: calc((27px * 0) - 8px);
-	left: calc((27px * 11) - 8px);
-	background: url(items/PowerNodeFragment.svg);
 	background-repeat: no-repeat;
 }
 
@@ -651,30 +735,6 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item67 {
-	position: absolute;
-	top: calc((27px * 9) - 8px);
-	left: calc((27px * 7) - 8px);
-	background: url(items/BlackCoat.svg);
-	background-repeat: no-repeat;
-}
-
-#item68 {
-	position: absolute;
-	top: calc((27px * 11) - 8px);
-	left: calc((27px * 7) - 8px);
-	background: url(items/RangeNode.svg);
-	background-repeat: no-repeat;
-}
-
-#item69 {
-	position: absolute;
-	top: calc((27px * 13) - 8px);
-	left: calc((27px * 22) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
 #item70 {
 	position: absolute;
 	top: calc((27px * 1) - 8px);
@@ -683,11 +743,20 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item71 {
+#item109 {
 	position: absolute;
-	top: calc((27px * 14) - 8px);
-	left: calc((27px * 14) - 8px);
-	background: url(items/PowerNodeFragment.svg);
+	top: calc((27px * 11) - 8px);
+	left: calc((27px * 4) - 8px);
+	background: url(items/IonBeam.svg);
+	background-repeat: no-repeat;
+}
+
+/* INDI ITEMS */
+#item55 {
+	position: absolute;
+	top: calc((27px * 2) - 8px);
+	left: calc((27px * 0) - 8px);
+	background: url(items/DigitalPaper.svg);
 	background-repeat: no-repeat;
 }
 
@@ -696,6 +765,15 @@ button {
 	top: calc((27px * 1) - 8px);
 	left: calc((27px * 23) - 8px);
 	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
+}
+
+/* UKKIN-NA ITEMS */
+#item67 {
+	position: absolute;
+	top: calc((27px * 9) - 8px);
+	left: calc((27px * 7) - 8px);
+	background: url(items/BlackCoat.svg);
 	background-repeat: no-repeat;
 }
 
@@ -763,6 +841,23 @@ button {
 	background-repeat: no-repeat;
 }
 
+#item97 {
+	position: absolute;
+	top: calc((27px * 0) - 8px);
+	left: calc((27px * 9) - 8px);
+	background: url(items/TriCone.svg);
+	background-repeat: no-repeat;
+}
+
+#item110 {
+	position: absolute;
+	top: calc((27px * 17) - 8px);
+	left: calc((27px * 8) - 8px);
+	background: url(items/PowerNodeFragment.svg);
+	background-repeat: no-repeat;
+}
+
+/* EDIN ITEMS */
 #item81 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
@@ -781,53 +876,13 @@ button {
 
 #item83 {
 	position: absolute;
-	top: calc((27px * 5) - 8px);
-	left: calc((27px * 11) - 8px);
-	background: url(items/HealthNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item84 {
-	position: absolute;
-	top: calc((27px * 4) - 8px);
-	left: calc((27px * 12) - 8px);
-	background: url(items/DistortionField.svg);
-	background-repeat: no-repeat;
-}
-
-#item85 {
-	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 15) - 8px);
 	background: url(items/GlitchBomb.svg);
 	background-repeat: no-repeat;
 }
 
-#item86 {
-	position: absolute;
-	top: calc((27px * 0) - 8px);
-	left: calc((27px * 13) - 8px);
-	background: url(items/HealthNode.svg);
-	background-repeat: no-repeat;
-}
-
 #item87 {
-	position: absolute;
-	top: calc((27px * 11) - 8px);
-	left: calc((27px * 9) - 8px);
-	background: url(items/LightningGun.svg);
-	background-repeat: no-repeat;
-}
-
-#item88 {
-	position: absolute;
-	top: calc((27px * 2) - 8px);
-	left: calc((27px * 8) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
-#item89 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 15) - 8px);
@@ -835,7 +890,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item90 {
+#item88 {
 	position: absolute;
 	top: calc((27px * 9) - 8px);
 	left: calc((27px * 14) - 8px);
@@ -843,7 +898,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item91 {
+#item89 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 9) - 8px);
@@ -851,7 +906,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item92 {
+#item90 {
 	position: absolute;
 	top: calc((27px * 11) - 8px);
 	left: calc((27px * 7) - 8px);
@@ -859,7 +914,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item93 {
+#item91 {
 	position: absolute;
 	top: calc((27px * 8) - 8px);
 	left: calc((27px * 8) - 8px);
@@ -867,7 +922,7 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item94 {
+#item92 {
 	position: absolute;
 	top: calc((27px * 2) - 8px);
 	left: calc((27px * 4) - 8px);
@@ -875,27 +930,19 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item95 {
+#item93 {
 	position: absolute;
-	top: calc((27px * 7) - 8px);
-	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg);
+	top: calc((27px * 5) - 8px);
+	left: calc((27px * 11) - 8px);
+	background: url(items/HealthNodeFragment.svg);
 	background-repeat: no-repeat;
 }
 
-#item96 {
+#item94 {
 	position: absolute;
-	top: calc((27px * 11) - 8px);
-	left: calc((27px * 3) - 8px);
-	background: url(items/DataGrenade.svg);
-	background-repeat: no-repeat;
-}
-
-#item97 {
-	position: absolute;
-	top: calc((27px * 0) - 8px);
-	left: calc((27px * 9) - 8px);
-	background: url(items/TriCone.svg);
+	top: calc((27px * 4) - 8px);
+	left: calc((27px * 12) - 8px);
+	background: url(items/DistortionField.svg);
 	background-repeat: no-repeat;
 }
 
@@ -939,6 +986,7 @@ button {
 	background-repeat: no-repeat;
 }
 
+/* E-KUR-MAH ITEMS */
 #item103 {
 	position: absolute;
 	top: calc((27px * 4) - 8px);
@@ -987,22 +1035,6 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item109 {
-	position: absolute;
-	top: calc((27px * 11) - 8px);
-	left: calc((27px * 4) - 8px);
-	background: url(items/IonBeam.svg);
-	background-repeat: no-repeat;
-}
-
-#item110 {
-	position: absolute;
-	top: calc((27px * 17) - 8px);
-	left: calc((27px * 8) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
-}
-
 #item111 {
 	position: absolute;
 	top: calc((27px * 21) - 8px);
@@ -1011,6 +1043,23 @@ button {
 	background-repeat: no-repeat;
 }
 
+#item120 {
+	position: absolute;
+	top: calc((27px * 7) - 8px);
+	left: calc((27px * 7) - 8px);
+	background: url(items/DigitalPaper.svg);
+	background-repeat: no-repeat;
+}
+
+#item124 {
+	position: absolute;
+	top: calc((27px * 16) - 8px);
+	left: calc((27px * 3) - 8px);
+	background: url(items/Swim.svg);
+	background-repeat: no-repeat;
+}
+
+/* MAR-URU */
 #item112 {
 	position: absolute;
 	top: calc((27px * 18) - 8px);
@@ -1075,42 +1124,30 @@ button {
 	background-repeat: no-repeat;
 }
 
-#item120 {
-	position: absolute;
-	top: calc((27px * 13) - 8px);
-	left: calc((27px * 10) - 8px);
-	background: url(items/WallTrace.svg);
+/* SLUGS */
+#item125, #item126, #item127 {
+	border: 8.5px transparent solid;
+	width: 19px;
+	height: 19px;
+	z-index: 2;
+	background: url(items/HealthNodeFragment.svg);
 	background-repeat: no-repeat;
 }
 
-#item121 {
+.eribu {
+	position: absolute;
+	top: calc((27px * 6) - 8px);
+	left: calc((27px * 1) - 8px);
+}
+
+.indi {
 	position: absolute;
 	top: calc((27px * 3) - 8px);
-	left: calc((27px * 5) - 8px);
-	background: url(items/PowerNodeFragment.svg);
-	background-repeat: no-repeat;
+	left: calc((27px * 28) - 8px);
 }
 
-#item122 {
+.ukkinna {
 	position: absolute;
-	top: calc((27px * 4) - 8px);
-	left: calc((27px * 1) - 8px);
-	background: url(items/FlameThrower.svg);
-	background-repeat: no-repeat;
-}
-
-#item123 {
-	position: absolute;
-	top: calc((27px * 16) - 8px);
-	left: calc((27px * 3) - 8px);
-	background: url(items/Swim.svg);
-	background-repeat: no-repeat;
-}
-
-#item124 {
-	position: absolute;
-	top: calc((27px * 7) - 8px);
+	top: calc((27px * 15) - 8px);
 	left: calc((27px * 7) - 8px);
-	background: url(items/DigitalPaper.svg);
-	background-repeat: no-repeat;
 }
