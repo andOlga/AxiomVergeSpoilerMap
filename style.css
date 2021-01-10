@@ -560,8 +560,8 @@ button {
 
 #item51 {
 	position: absolute;
-	top: calc((27px * 0) - 8px);
-	left: calc((27px * 11) - 8px);
+	top: calc((27px * 8) - 8px);
+	left: calc((27px * 0) - 8px);
 	background: url(items/PowerNodeFragment.svg);
 	background-repeat: no-repeat;
 }
